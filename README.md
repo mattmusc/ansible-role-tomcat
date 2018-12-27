@@ -23,6 +23,7 @@ This example is taken from `molecule/default/playbook.yml`:
 
 ```
 
+
 Role Variables
 --------------
 
@@ -52,6 +53,7 @@ tomcat_non_ssl_connector_port: 8080
 tomcat_ssl_connector_port: 8443
 tomcat_shutdown_port: 8005
 tomcat_ajp_port: 8009
+wars: []
 
 # This role allows multiple installations of Apache Tomcat, each in their own
 # location, potentially of different version.
@@ -82,6 +84,22 @@ tomcat_validate_certs: no
 tomcat_ignore_docker: yes
 
 ```
+
+
+Deploying a war
+---------------
+
+To deploy a war, you need to declare the `wars` variable in the playbook:
+```yml
+---
+- hosts: all
+
+  vars:
+    wars: <list of wars>
+      - url: <path to the .war file>
+
+```
+
 
 Requirements
 ------------
