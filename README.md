@@ -151,7 +151,7 @@ A single star means the build may fail, it's marked as an experimental build.
 Testing
 -------
 
-[Unit tests](https://travis-ci.org/robertdebock/ansible-role-tomcat) are done on every commit and periodically.
+[Unit tests](https://travis-ci.org/mattmusc/ansible-role-tomcat) are done on every commit and periodically.
 
 If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-tomcat/issues)
 
