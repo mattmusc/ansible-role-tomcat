@@ -1,7 +1,7 @@
 tomcat
 =========
 
-[![Build Status](https://travis-ci.org/robertdebock/ansible-role-tomcat.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-tomcat)
+[![Build Status](https://travis-ci.org/mattmusc/ansible-role-tomcat.svg?branch=master)](https://travis-ci.org/mattmusc/ansible-role-tomcat)
 
 The purpose of this role is to install and configure tomcat on your system.
 
